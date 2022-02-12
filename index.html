@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/iconsmind/outline/128/Headphone-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="./assets/font/themify-icons/themify-icons.css" rel="stylesheet">
+    <title>The Band</title>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <!--            Nav-->
+        <div class="header__menu-mobile-btn js-mobile-menu">
+            <i class="header__menu-mobile-icon ti-menu"></i>
+        </div>
+        <ul class="header__nav">
+            <li class="header__nav-item"><a class="header__nav-item-link js-menu-btn" href="#">Home</a></li>
+            <li class="header__nav-item"><a class="header__nav-item-link js-menu-btn" href="#band">Band</a></li>
+            <li class="header__nav-item"><a class="header__nav-item-link js-menu-btn" href="#tour">Tour</a></li>
+            <li class="header__nav-item"><a class="header__nav-item-link js-menu-btn" href="#contact">Contact</a></li>
+            <li class="header__nav-item">
+                <a class="header__nav-item-link js-menu-btn" href="#">
+                    More
+                    <i class="header__nav-item-icon ti-angle-down"></i>
+                </a>
+                <ul class="header__nav-item-sub-nav js-header-sub-nav">
+                    <li class="header__sub-nav-item"><a class="header__sub-nav-item-link js-menu-btn" href="#">Merchant</a></li>
+                    <li class="header__sub-nav-item"><a class="header__sub-nav-item-link js-menu-btn" href="#">Extras</a></li>
+                    <li class="header__sub-nav-item"><a class="header__sub-nav-item-link js-menu-btn" href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!--            Search Button-->
+        <div class="header__search-btn">
+            <i class="header__search-icon ti-search"></i>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider__text">
+            <h2 class="slider__text-heading">New York</h2>
+            <p class="slider__text-description">The atmosphere in New York is Amazing</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <!--        About section-->
+        <div id="band" class="content__section">
+            <h2 class="section__heading">The Band</h2>
+            <p class="section__sub-heading">We love music</p>
+            <p class="section__about-text">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <div class="row section__member-list">
+                <div class="text--center col col-3 text--member">
+                    <p class="section__member-name">Name</p>
+                    <img src="./assets/css/img/bandmember.jpg" alt="" class="section__member-img">
+                </div>
+                <div class="text--center col col-3 text--member">
+                    <p class="section__member-name">Name</p>
+                    <img src="./assets/css/img/bandmember.jpg" alt="" class="section__member-img">
+                </div>
+                <div class="text--center col col-3 text--member">
+                    <p class="section__member-name">Name</p>
+                    <img src="./assets/css/img/bandmember.jpg" alt="" class="section__member-img">
+                </div>
+            </div>
+        </div>
+
+        <!--        Tour section-->
+        <div id="tour" class="tour__section">
+            <div class="content__section">
+                <h2 class="section__heading text--white">TOUR DATES</h2>
+                <p class="section__sub-heading  text--white">Remember to book your tickets!</p>
+                <ul class="ticket-list">
+                    <li class="ticket__item">
+                        September
+                        <span class="ticket-sold-out">Sold out</span>
+                    </li>
+                    <li class="ticket__item">
+                        October
+                        <span class="ticket-sold-out">Sold out</span>
+                    </li>
+                    <li class="ticket__item">
+                        November
+                        <span class="ticket-quantity">3</span>
+                    </li>
+                </ul>
+                <!--                Place-->
+                <div class="row places-list">
+                    <div class="col-3 s-col-full col mt--32">
+                        <img src="./assets/css/img/paris.jpg" alt="" class="places-img">
+                        <div class="places-body">
+                            <h3 class="places-heading">Paris</h3>
+                            <p class="places-time">Fri 27 Nov 2022</p>
+                            <div class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                            <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-3 s-col-full col mt--32">
+                        <img src="./assets/css/img/newyork.jpg" alt="" class="places-img">
+                        <div class="places-body">
+                            <h3 class="places-heading">New York</h3>
+                            <p class="places-time">Sat 28 Nov 2022</p>
+                            <div class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                            <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-3 s-col-full col mt--32">
+                        <img src="./assets/css/img/sanfran.jpg" alt="" class="places-img">
+                        <div class="places-body">
+                            <h3 class="places-heading">San Francisco</h3>
+                            <p class="places-time">Sun 29 Nov 2022</p>
+                            <div class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                            <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--        Contact section-->
+        <div id="contact" class="content__section">
+            <h2 class="section__heading">Contact</h2>
+            <p class="section__sub-heading">Fan? Drop a note!</p>
+            <div class="row contact__content">
+                <div class="col col-half s-col-full contact__info">
+                    <p class="contact__text">
+                        <i class="contact__info-icon ti-location-pin"></i>
+                        Chicago, US
+                    </p>
+                    <p class="contact__text">
+                        <i class="contact__info-icon ti-mobile"></i>
+                        Phone:
+                        <a href="tel:+12345-220" class="contact__info-link">+12345-220</a>
+                    </p>
+                    <p class="contact__text">
+                        <i class="contact__info-icon ti-email"></i>
+                        Email: <a href="mailto:nhat@email.com" class="contact__info-link">nhat@email.com</a>
+                    </p>
+                </div>
+                <div class="col col-half s-col-full contact__form">
+                    <form action="" class="contact__section">
+                        <div class="row">
+                            <div class="col col-half s-col-full mt--16">
+                                <input type="text" name="" required id="" placeholder="Name"
+                                       class="contact__form-input">
+                            </div>
+                            <div class="col col-half s-col-full mt--16 s-mt-8">
+                                <input type="email" name="" required id="" placeholder="Email"
+                                       class="contact__form-input">
+                            </div>
+                        </div>
+
+                        <div class="row mt--8">
+                            <div class="col col-full">
+                                <input type="text" name="" required id="" placeholder="Message"
+                                       class="contact__form-input">
+                            </div>
+                        </div>
+                        <input class="mt--16 contact__form-submit-btn btn s-full-width" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--                    End contact section-->
+        <div class="map__section">
+            <img src="./assets/css/img/map.jpg" alt="Map" class="map__section-img">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__social-lists">
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-facebook"></i></a>
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-instagram"></i></a>
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-twitter"></i></a>
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-linkedin"></i></a>
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-pinterest"></i></a>
+            <a href="" class="footer__social-link"><i class="footer__social-icon ti-youtube"></i></a>
+        </div>
+        <p class="footer__copyright">Made by <a href="" class="footer__copyright-link">Nhat Bui</a></p>
+    </footer>
+</div>
+<div class="modal js-modal">
+    <div class="modal__container js-modal-container">
+        <div class="modal__close js-modal-close">
+            <i class="ti-close"></i>
+        </div>
+
+        <div class="modal__header">
+            <header class="modal__header-header">
+                <i class="ti-bag modal__header-icon"></i>
+                Tickets
+            </header>
+        </div>
+
+        <div class="modal__body">
+            <label for="ticket__price" class="modal__body-label">
+                <i class="ti-shopping-cart modal__body-label-icon"></i>
+                Tickets, $15 per person
+            </label>
+            <input type="text" id="ticket__price" class="modal__input" placeholder="How many ?">
+
+
+            <label for="ticket__qty" class="modal__body-label">
+                <i class="ti-user"></i>
+                Send to
+            </label>
+            <input type="email" id="ticket__qty" class="modal__input" placeholder="Enter email address">
+
+            <div class="btn modal__button-wrapper">
+                <a class="modal__buy-btn">
+                    Pay
+                    <i class="ti-check"></i>
+                </a>
+            </div>
+        </div>
+        <footer class="modal__footer">
+            <p class="modal__footer-help">Need
+                <a href="#" class="modal__footer-text">helps?</a>
+            </p>
+        </footer>
+    </div>
+</div>
+<script src="src/buyTicket.js"></script>
+<script src="src/menuHandler.js"></script>
+</body>
+</html>
