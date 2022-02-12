@@ -370,6 +370,7 @@ body {
     color: #fff;
     text-decoration: none;
     border: 1px solid #000;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
