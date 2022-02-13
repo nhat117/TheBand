@@ -1,13 +1,13 @@
 /*pc*/
 
-@media (min-width: 1023px) {
+@media (min-width: 64em) {
     .content__section {
         width: 800px;
     }
 }
 
 /*Tablet and mobile*/
-@media (max-width: 1023px) {
+@media (max-width:  63.9375em) {
     .btn {
         padding: 15px 16px;
     }
@@ -49,7 +49,7 @@
 }
 
 /*Tablet*/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width:48.0625em) and (max-width:  63.9375em) {
     .content__section {
         width: 800px;
     }
@@ -57,10 +57,16 @@
 }
 
 /*Mobile*/
-@media (max-width: 768px) {
+@media (max-width: 48em) {
+    html, body{
+        overflow-x: hidden;
+    }
+
     body {
         display: flex;
     }
+
+
 
     .header {
         overflow: hidden;
@@ -144,5 +150,9 @@
 
     .slider__text{
         bottom: 20%;
+    }
+
+    .slider__text-description{
+        font-size: 1.9rem;
     }
 }
