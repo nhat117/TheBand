@@ -39,7 +39,12 @@
     }
 
     .contact__form-input {
-        height: 48px;
+        line-height: 220%;
+        padding:10px 10px;
+    }
+
+    .slider__text-description {
+        line-height: 2.2rem;
     }
 }
 
@@ -135,5 +140,9 @@
     .s-full-width {
         width: 100%;
         text-align: center;
+    }
+
+    .slider__text{
+        bottom: 20%;
     }
 }
